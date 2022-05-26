@@ -1,11 +1,11 @@
 <div align="center"> 
 <h1 align="center">𝘧𝘳𝘦𝘦𝘯𝘰𝘮-𝘱𝘺</h1>
 
-<a href="https://github.com/Oreomeow/freenom-py/stargazers"><img src="https://img.shields.io/github/stars/Oreomeow/freenom-py?color=9cf&logo=Riseup&logoColor=9cf&style=for-the-badge" alt="GitHub stars"></a>
-<a href="https://github.com/Oreomeow/freenom-py/network"><img src="https://img.shields.io/github/forks/Oreomeow/freenom-py?color=9cf&style=for-the-badge" alt="GitHub forks"></a>
+<a href="https://github.com/jiankujidu/freenom-py/stargazers"><img src="https://img.shields.io/github/stars/jiankujidu/freenom-py?color=9cf&logo=Riseup&logoColor=9cf&style=for-the-badge" alt="GitHub stars"></a>
+<a href="https://github.com/jiankujidu/freenom-py/network"><img src="https://img.shields.io/github/forks/jiankujidu/freenom-py?color=9cf&style=for-the-badge" alt="GitHub forks"></a>
 <a href="https://t.me/joinchat/muGNhnaZglQ0N2Q1"><img src="https://img.shields.io/badge/talk-Telegram-9cf?logo=Telegram&style=for-the-badge" alt="Telegram"></a>
-<a href="https://github.com/Oreomeow/freenom-py/issues"><img src="https://img.shields.io/github/issues/Oreomeow/freenom-py?color=yellow&style=for-the-badge" alt="GitHub issues"></a>
-<a href="https://github.com/Oreomeow/freenom-py/commits"><img src="https://img.shields.io/github/last-commit/Oreomeow/freenom-py?color=orange&logo=GitHub&style=for-the-badge" alt="GitHub last commit"></a>
+<a href="https://github.com/jiankujidu/freenom-py/issues"><img src="https://img.shields.io/github/issues/jiankujidu/freenom-py?color=yellow&style=for-the-badge" alt="GitHub issues"></a>
+<a href="https://github.com/jiankujidu/freenom-py/commits"><img src="https://img.shields.io/github/last-commit/jiankujidu/freenom-py?color=orange&logo=GitHub&style=for-the-badge" alt="GitHub last commit"></a>
 
 </div>
   
@@ -26,7 +26,7 @@ Python 运行环境
 PC、VPS 等可直接运行，无通知变量
 
 ```sh
-wget https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
+wget https://raw.githubusercontent.com/jiankujidu/freenom-py/main/FNplus.py
 ```
 
 ```sh
@@ -48,7 +48,7 @@ RepoFileExtensions="js py ts html"
 2. 添加定时拉取任务并运行
 
 ```
-ql repo https://github.com/Oreomeow/freenom-py.git "FN_extend.py" "" "utils|templates"
+ql repo https://github.com/jiankujidu/freenom-py.git "FN_extend.py" "" "utils|templates"
 ```
 
 3. 安装依赖
@@ -59,20 +59,20 @@ docker exec -it qinglong bash # 进入容器内
 
 ```sh
 cd /ql/scripts
-wget https://raw.githubusercontent.com/Oreomeow/freenom-py/main/requirements.txt -O requirements.txt
+wget https://raw.githubusercontent.com/jiankujidu/freenom-py/main/requirements.txt -O requirements.txt
 pip3 install -r requirements.txt
 ```
 
-4. 添加环境变量 [示例](https://github.com/Oreomeow/freenom-py/issues/1#issuecomment-903344952)
+4. 添加环境变量 [示例](https://github.com/jiankujidu/freenom-py/issues/1#issuecomment-903344952)
 
-* 可看[脚本注释](https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.py)
-* 参考[下方表格](https://github.com/Oreomeow/freenom-py#%E9%82%AE%E4%BB%B6%E7%89%88-)
+* 可看[脚本注释](https://raw.githubusercontent.com/jiankujidu/freenom-py/main/FN_extend.py)
+* 参考[下方表格](https://github.com/jiankujidu/freenom-py#%E9%82%AE%E4%BB%B6%E7%89%88-)
 
 5. 运行一次 `FN_extend.py` 测试
 
 <h3 align="center">🪁 elecV2P 邮件版 📧</h3>
 
-TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写[环境变量](https://github.com/Oreomeow/freenom-py#%E9%82%AE%E4%BB%B6%E7%89%88-)
+TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写[环境变量](https://github.com/jiankujidu/freenom-py#%E9%82%AE%E4%BB%B6%E7%89%88-)
 
 名称：Freenom 续期
 
@@ -81,7 +81,7 @@ TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> stor
 任务：
 
 ```
-https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.js
+https://raw.githubusercontent.com/jiankujidu/freenom-py/main/FN_extend.js
 ```
 
 <h3 align="center">🐉 青龙消息版 📱</h3>
@@ -89,16 +89,16 @@ https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.js
 1. 面板添加定时任务，定时随意，运行
 
 ```
-ql raw https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
+ql raw https://raw.githubusercontent.com/jiankujidu/freenom-py/main/FNplus.py
 ```
 
-2. 添加[环境变量](https://github.com/Oreomeow/freenom-py#%E6%B6%88%E6%81%AF%E7%89%88-) [示例](https://github.com/Oreomeow/freenom-py/issues/1#issuecomment-903344952)
+2. 添加[环境变量](https://github.com/jiankujidu/freenom-py#%E6%B6%88%E6%81%AF%E7%89%88-) [示例](https://github.com/jiankujidu/freenom-py/issues/1#issuecomment-903344952)
 
 3. 运行一次 `FNplus.py` 测试
 
 <h3 align="center">🪁 elecV2P 消息版 📱</h3>
 
-TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写[环境变量](https://github.com/Oreomeow/freenom-py#%E6%B6%88%E6%81%AF%E7%89%88-)
+TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写[环境变量](https://github.com/jiankujidu/freenom-py#%E6%B6%88%E6%81%AF%E7%89%88-)
 
 名称：Freenom 续期
 
@@ -107,7 +107,7 @@ TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> stor
 任务：
 
 ```
-https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js
+https://raw.githubusercontent.com/jiankujidu/freenom-py/main/FNplus.js
 ```
 
 ## 环境变量 🍒
